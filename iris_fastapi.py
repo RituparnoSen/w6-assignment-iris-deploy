@@ -11,7 +11,7 @@ app = FastAPI(title="🌸 Iris Classifier API")
 # Load the trained Decision Tree model
 model = joblib.load("model.joblib")
 
-# Define input schema 12
+# Define input schema 123
 class IrisInput(BaseModel):
     sepal_length: float
     sepal_width: float
